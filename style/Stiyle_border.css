@@ -1,0 +1,17 @@
+BODY>* {
+    outline: 2px solid deeppink;
+}
+
+BODY>*>* {
+    outline: 2px dashed lime;
+    outline-offset: -2px;
+}
+
+BODY>*>*>* {
+    outline: 2px dotted dodgerblue;
+    outline-offset: -4px;
+}
+
+.html {
+    font-size: 16px;
+}

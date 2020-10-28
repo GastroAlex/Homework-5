@@ -1,0 +1,535 @@
+/* general style */
+
+* {
+    box-sizing: border-box;
+}
+
+.conteiner {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1170px;
+}
+
+a {
+    text-decoration: none;
+}
+
+p {
+    margin: 0px;
+    font-size: 16px;
+    line-height: 32px;
+    color: #666666;
+    font-family: "Muller Regular";
+}
+
+.text_gold {
+    color: #cc9933;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #F1F1F1;
+}
+
+
+/* header logo and affice */
+
+.conteiner_head {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    display: flex;
+    align-items: center;
+}
+
+.head_logo {
+    margin-right: 25px;
+    border-radius: 12px;
+}
+
+.head_phone {
+    margin-right: 550px;
+    color: #666666;
+    font-size: 22px;
+    font-weight: bold;
+    font-family: "Muller Bold";
+}
+
+.head_office {
+    margin-right: 10px;
+    font-size: 16px;
+    line-height: 32px;
+    color: #cc9933;
+    font-family: "Font Awesome";
+}
+
+
+/* heder_navigation */
+
+.header_nav {
+    display: flex;
+    align-items: center;
+    height: 70px;
+    border-radius: 12px;
+    background-color: #ffffff;
+}
+
+.header_nav_list {
+    display: flex;
+    margin-left: 22px;
+}
+
+.nav_link:not(:last-child) {
+    margin-right: 50px;
+}
+
+.nav_link_item {
+    font-size: 16px;
+    color: #333333;
+    font-family: "Muller Regular";
+}
+
+.nav_search_item {
+    margin-left: auto;
+    margin-right: 20px;
+    width: 355px;
+    height: 48px;
+    border-radius: 15px;
+    border-style: none;
+    background-color: #f1f1f1;
+}
+
+
+/* special Offers Section */
+
+.main_offer {
+    width: 596px;
+}
+
+.conteiner_offer_form {
+    display: flex;
+}
+
+
+/* left box */
+
+.main_form {
+    margin-right: 50px;
+    width: 519px;
+    margin-top: 70px;
+}
+
+.offer_form_title {
+    margin: 0 0 23px 70px;
+    font-size: 40px;
+    color: #333333;
+    font-family: "Muller Regular";
+}
+
+.form_item {
+    margin-bottom: 23px;
+    width: 519px;
+    height: 71px;
+    border-radius: 12px;
+    border-style: none;
+    background-color: #ffffff;
+}
+
+.form_item_desc {
+    display: flex;
+    align-items: center;
+    flex-wrap: nowrap;
+}
+
+.a_desc_btn {
+    width: 159px;
+    height: 70px;
+    border-radius: 12px;
+    padding: 25px 30px 28px 31px;
+    background-color: #cc9933;
+    font-size: 16px;
+    color: #ffffff;
+    font-weight: bold;
+    font-family: "Muller Bold";
+}
+
+.p_desc_text {
+    margin-left: 30px;
+}
+
+
+/* right box offer */
+
+.main_offer {
+    margin-top: 70px;
+    background-image: url(/img/offer_right_box.png);
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+
+.offer_content {
+    margin: 295px auto auto 45px;
+    width: 320px;
+    height: 241px;
+}
+
+.offer_title {
+    line-height: 58px;
+    margin: 0px;
+    font-size: 66px;
+    color: #ffffff;
+    font-weight: bold;
+    font-family: "Muller Bold";
+}
+
+.offer_price {
+    margin-top: 40px;
+    font-size: 35px;
+    color: #9b9088;
+    font-family: "Muller Regular";
+}
+
+.offer_info {
+    display: flex;
+}
+
+.offer_link {
+    margin-top: 47px;
+    margin-left: 40px;
+    font-size: 16px;
+    color: #ffcc66;
+    font-family: "Muller Regular";
+}
+
+
+/* about us */
+
+.conteiner_about_us {
+    margin-top: 65px;
+    margin-left: 44px;
+}
+
+.about-us_title {
+    margin: 0px;
+    font-size: 40px;
+    color: #333333;
+    font-family: "Muller Regular";
+}
+
+.main_about-us_text {
+    margin-top: 20px;
+    font-size: 16px;
+    line-height: 32px;
+    color: #666666;
+    font-family: "Muller Regular";
+}
+
+
+/* service */
+
+.main_title {
+    margin: 60px 0px 10px 44px;
+    font-size: 40px;
+    line-height: 32px;
+    color: #333333;
+    font-family: "Muller Regular";
+}
+
+.service_conteiner {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.service_box {
+    width: 572px;
+    height: 325px;
+    margin-top: 23px;
+    border-radius: 12px;
+    background-color: #ffffff;
+}
+
+.service_box_title {
+    display: inline-block;
+    margin: 25px auto auto 45px;
+    font-size: 22px;
+    line-height: 32px;
+    color: #cc9933;
+    font-weight: 500;
+    font-family: "Muller Medium";
+}
+
+.service_box_text {
+    margin: 5px auto auto 45px;
+    font-size: 16px;
+    line-height: 32px;
+    color: #333333;
+    font-family: "Muller Regular";
+}
+
+
+/*plus */
+
+.conteiner_plus {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.plus_box {
+    width: 275px;
+    height: 275px;
+    margin-top: 20px;
+    border-radius: 12px;
+    background-color: #ffffff;
+}
+
+.plus_svg {
+    margin: 45px auto auto 45px;
+}
+
+.plus_text {
+    margin: 23px 54px 40px 45px;
+    display: block;
+    font-size: 16px;
+    line-height: 25px;
+    color: #333333;
+    font-family: "Muller Regular";
+}
+
+
+/* book */
+
+.conteiner_book {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.book_box {
+    width: 373px;
+    height: 441px;
+    margin-top: 30px;
+    border-radius: 12px;
+    background-color: #ffffff;
+}
+
+.book_box_last {
+    width: 373px;
+    height: 441px;
+    margin-top: 30px;
+    border-radius: 12px;
+    background-image: url(/img/hosting_9.jpg);
+}
+
+.book_box_star {
+    display: inline-block;
+}
+
+.book_box_ul {
+    display: inline-block;
+}
+
+.book_box_content {
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.book_box_ul {
+    /* Как убрать отступ в верхней части? */
+    margin: 31px auto auto 45px;
+    font-size: 16px;
+    line-height: 32px;
+    color: #969696;
+    font-family: "Muller Regular";
+}
+
+.book_box_price {
+    font-size: 20px;
+    color: black;
+}
+
+.box_item_btn {
+    margin: 12px auto auto 0px;
+    width: 100px;
+    height: 41px;
+    border-radius: 12px;
+    background-color: white;
+    border: 1px solid #cc9933;
+}
+
+.box_btn_text {
+    /* как выровнить текст ссылки по центру? */
+    padding: 17px;
+    color: #cc9933;
+}
+
+.book_box_star {
+    margin: 40px 40px auto auto;
+}
+
+.box_last_link {
+    display: block;
+    margin: 360px auto 50px 40px;
+    font-size: 22px;
+    color: #ffffff;
+    font-weight: 500;
+    font-family: "Muller Medium";
+}
+
+
+/* contacts */
+
+.conteiner_contacts {
+    display: flex;
+    margin-top: 30px;
+}
+
+.contact_box {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: 180px;
+    width: 472px;
+    height: 619px;
+    border-radius: 12px;
+    background-color: #ffffff;
+}
+
+.contacts_box_item {
+    margin-top: 30px;
+    margin-left: 40px;
+    display: flex;
+    width: 472px;
+    height: auto;
+}
+
+.contacts_text {
+    width: 100px;
+    display: block;
+}
+
+.contacts_item {
+    display: block;
+    margin-left: 40px;
+}
+
+.contacts_box_link {
+    width: 214px;
+    height: 70px;
+    margin: auto auto 45px 45px;
+    border-radius: 12px;
+    background-color: white;
+    border: 1px solid #cc9933;
+}
+
+.contacts_link {
+    color: #cc9933;
+}
+
+.conteiner_search {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 350px;
+    height: 470px;
+}
+
+.write-to-us_form_name {
+    width: 340px;
+    height: 70px;
+    border-radius: 12px;
+    border-style: none;
+    background-color: #ffffff;
+}
+
+.write-to-us_form_phone {
+    width: 340px;
+    height: 70px;
+    border-radius: 12px;
+    border-style: none;
+    background-color: #ffffff;
+}
+
+.write-to-us_form_item_masage {
+    width: 340px;
+    height: 110px;
+    border-radius: 12px;
+    border-style: none;
+    background-color: #ffffff;
+}
+
+.write-to-us_link {
+    width: 340px;
+    height: 70px;
+    border-radius: 12px;
+    background-color: #cc9933;
+    color: white;
+    padding: 25px;
+}
+
+.main_title_search {
+    font-size: 40px;
+    line-height: 32px;
+    margin-bottom: 15px;
+    color: #333333;
+    font-family: "Muller Regular";
+    text-align: center;
+}
+
+
+/* footer */
+
+.conteiner_footer {
+    display: flex;
+    width: 1168px;
+    height: 338px;
+    margin-top: 25px;
+    border-radius: 12px;
+    background-color: #333333;
+}
+
+.footer_box_info {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 300px;
+    margin-top: 45px;
+    margin-left: 50px;
+}
+
+.footer_box_contact {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 300px;
+    max-height: 240px;
+    margin-top: 45px;
+    margin-left: 50px;
+}
+
+.footer_contact {
+    width: 300px;
+}
+
+.footer_background_img {
+    width: 250px;
+    height: 230px;
+    margin-top: 88px;
+}
+
+.footer_box_social {
+    margin-top: 35px;
+    margin-left: auto;
+    margin-right: 50px;
+}
+
+
+/*не могу вставить иконку VK */
+
+.social_Item {
+    line-height: 41px;
+}
